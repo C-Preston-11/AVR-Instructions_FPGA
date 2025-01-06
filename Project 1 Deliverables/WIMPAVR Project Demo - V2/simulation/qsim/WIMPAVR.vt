@@ -1,0 +1,277 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/08/2023 22:49:59"
+                                                                        
+// Verilog Self-Checking Test Bench (with test vectors) for design :    AVR_TEST
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module AVR_TEST_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CLOCK;
+reg CLOCK_BUTTON;
+reg CLOCK_SEL0;
+reg CLOCK_SEL1;
+reg Display_SW13;
+reg Display_SW14;
+reg IR0;
+reg IR1;
+reg IR2;
+reg IR3;
+reg IR4;
+reg IR5;
+reg IR6;
+reg IR7;
+reg IR8;
+reg IR9;
+reg IR10;
+reg IR11;
+reg IR12;
+reg IR13;
+reg IR14;
+reg IR15;
+reg RESET;
+reg SW0;
+reg SW1;
+reg SW2;
+reg SW3;
+reg SW4;
+reg SWITCH;
+// wires                                               
+wire BranchState;
+wire C_FLAG;
+wire CE;
+wire DESG1;
+wire DESG2;
+wire DESG3;
+wire DESG4;
+wire DESG5;
+wire DESG6;
+wire DESG7;
+wire DESG8;
+wire DESG9;
+wire DESG10;
+wire DESG11;
+wire DESG12;
+wire DLSEG0;
+wire DLSEG1;
+wire DLSEG2;
+wire DLSEG3;
+wire DLSEG4;
+wire DLSEG5;
+wire DLSEG6;
+wire DLSEG7;
+wire DLSEG8;
+wire DLSEG9;
+wire DLSEG10;
+wire DLSEG11;
+wire DLSEG12;
+wire DLSEG13;
+wire DSEG0;
+wire DSEG13;
+wire EXECUTE;
+wire LB;
+wire MASTER_LED;
+wire MUL_LED;
+wire NOE;
+wire Q0_0;
+wire Q0_1;
+wire Q0_2;
+wire Q0_3;
+wire Q0_4;
+wire Q0_5;
+wire Q0_6;
+wire Q1_0;
+wire Q1_1;
+wire Q1_2;
+wire Q1_3;
+wire Q1_4;
+wire Q1_5;
+wire Q1_6;
+wire Q2_0;
+wire Q2_1;
+wire Q2_2;
+wire Q2_3;
+wire Q2_4;
+wire Q2_5;
+wire Q2_6;
+wire Q3_0;
+wire Q3_1;
+wire Q3_2;
+wire Q3_3;
+wire Q3_4;
+wire Q3_5;
+wire Q3_6;
+wire SRAM0;
+wire SRAM1;
+wire SRAM2;
+wire SRAM3;
+wire SRAM4;
+wire SRAM5;
+wire SRAM6;
+wire SRAM7;
+wire SRAM8;
+wire SRAM9;
+wire SRAM10;
+wire SRAM11;
+wire SRAM12;
+wire SRAM13;
+wire SRAM14;
+wire SRAM15;
+wire SRAM16;
+wire SRAM17;
+wire SYSTEM_ON;
+wire UB;
+wire WE;
+wire Z_FLAG;
+
+// assign statements (if any)                          
+AVR_TEST i1 (
+// port map - connection between master ports and signals/registers   
+	.BranchState(BranchState),
+	.C_FLAG(C_FLAG),
+	.CE(CE),
+	.CLOCK(CLOCK),
+	.CLOCK_BUTTON(CLOCK_BUTTON),
+	.CLOCK_SEL0(CLOCK_SEL0),
+	.CLOCK_SEL1(CLOCK_SEL1),
+	.DESG1(DESG1),
+	.DESG2(DESG2),
+	.DESG3(DESG3),
+	.DESG4(DESG4),
+	.DESG5(DESG5),
+	.DESG6(DESG6),
+	.DESG7(DESG7),
+	.DESG8(DESG8),
+	.DESG9(DESG9),
+	.DESG10(DESG10),
+	.DESG11(DESG11),
+	.DESG12(DESG12),
+	.Display_SW13(Display_SW13),
+	.Display_SW14(Display_SW14),
+	.DLSEG0(DLSEG0),
+	.DLSEG1(DLSEG1),
+	.DLSEG2(DLSEG2),
+	.DLSEG3(DLSEG3),
+	.DLSEG4(DLSEG4),
+	.DLSEG5(DLSEG5),
+	.DLSEG6(DLSEG6),
+	.DLSEG7(DLSEG7),
+	.DLSEG8(DLSEG8),
+	.DLSEG9(DLSEG9),
+	.DLSEG10(DLSEG10),
+	.DLSEG11(DLSEG11),
+	.DLSEG12(DLSEG12),
+	.DLSEG13(DLSEG13),
+	.DSEG0(DSEG0),
+	.DSEG13(DSEG13),
+	.EXECUTE(EXECUTE),
+	.IR0(IR0),
+	.IR1(IR1),
+	.IR2(IR2),
+	.IR3(IR3),
+	.IR4(IR4),
+	.IR5(IR5),
+	.IR6(IR6),
+	.IR7(IR7),
+	.IR8(IR8),
+	.IR9(IR9),
+	.IR10(IR10),
+	.IR11(IR11),
+	.IR12(IR12),
+	.IR13(IR13),
+	.IR14(IR14),
+	.IR15(IR15),
+	.LB(LB),
+	.MASTER_LED(MASTER_LED),
+	.MUL_LED(MUL_LED),
+	.NOE(NOE),
+	.Q0_0(Q0_0),
+	.Q0_1(Q0_1),
+	.Q0_2(Q0_2),
+	.Q0_3(Q0_3),
+	.Q0_4(Q0_4),
+	.Q0_5(Q0_5),
+	.Q0_6(Q0_6),
+	.Q1_0(Q1_0),
+	.Q1_1(Q1_1),
+	.Q1_2(Q1_2),
+	.Q1_3(Q1_3),
+	.Q1_4(Q1_4),
+	.Q1_5(Q1_5),
+	.Q1_6(Q1_6),
+	.Q2_0(Q2_0),
+	.Q2_1(Q2_1),
+	.Q2_2(Q2_2),
+	.Q2_3(Q2_3),
+	.Q2_4(Q2_4),
+	.Q2_5(Q2_5),
+	.Q2_6(Q2_6),
+	.Q3_0(Q3_0),
+	.Q3_1(Q3_1),
+	.Q3_2(Q3_2),
+	.Q3_3(Q3_3),
+	.Q3_4(Q3_4),
+	.Q3_5(Q3_5),
+	.Q3_6(Q3_6),
+	.RESET(RESET),
+	.SRAM0(SRAM0),
+	.SRAM1(SRAM1),
+	.SRAM2(SRAM2),
+	.SRAM3(SRAM3),
+	.SRAM4(SRAM4),
+	.SRAM5(SRAM5),
+	.SRAM6(SRAM6),
+	.SRAM7(SRAM7),
+	.SRAM8(SRAM8),
+	.SRAM9(SRAM9),
+	.SRAM10(SRAM10),
+	.SRAM11(SRAM11),
+	.SRAM12(SRAM12),
+	.SRAM13(SRAM13),
+	.SRAM14(SRAM14),
+	.SRAM15(SRAM15),
+	.SRAM16(SRAM16),
+	.SRAM17(SRAM17),
+	.SW0(SW0),
+	.SW1(SW1),
+	.SW2(SW2),
+	.SW3(SW3),
+	.SW4(SW4),
+	.SWITCH(SWITCH),
+	.SYSTEM_ON(SYSTEM_ON),
+	.UB(UB),
+	.WE(WE),
+	.Z_FLAG(Z_FLAG)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+initial 
+begin 
+#1000000 $finish;
+end 
+endmodule
+
