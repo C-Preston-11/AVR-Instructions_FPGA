@@ -1,4 +1,4 @@
-Using an FPGA (Altera Quartus II Cyclone) to model an AVR microcontroller, 4 instructions were added to the existing design - without changing the previous commands. 
+This project used a FPGA (Altera Quartus II Cyclone) replicated AVR microcontroller, 4 instructions were added to the existing design - without changing the previous commands. 
 
 Instructions implemented 
 MUL - Multiply
