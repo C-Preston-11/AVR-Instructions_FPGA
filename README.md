@@ -7,3 +7,5 @@ MULSU - Multiply Signed and Unsigned
 NEG - Twos compliement
 
 The instruction set included demonstrated all the added instructions, as well as previous functions.
+
+![image](https://github.com/user-attachments/assets/54aaa1cc-34b0-4a83-ade8-aa7e7c28e40f)
