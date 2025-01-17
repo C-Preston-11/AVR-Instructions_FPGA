@@ -1,4 +1,4 @@
-This project used a FPGA (Altera Quartus II Cyclone) replicated AVR microcontroller, 4 instructions were added to the existing design - without changing the previous commands. 
+This project added multiple instructions to an AVR microcontroller architecture that was built using an FPGA board. The instructions needed to be implimented without altering the already available instructions.
 
 Instructions implemented 
 MUL - Multiply,
