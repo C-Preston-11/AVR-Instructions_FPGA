@@ -1,10 +1,14 @@
 This project added multiple instructions to an AVR microcontroller architecture that was built using an FPGA board. The instructions needed to be implimented without altering the already available instructions.
 
-Instructions implemented 
-MUL - Multiply,
-MULS - Multiply Signed,
-MULSU - Multiply Signed and Unsigned,
-NEG - Twos compliement,
+Instructions implemented:
+
+MUL - Multiply
+
+MULS - Multiply Signed
+
+MULSU - Multiply Signed and Unsigned
+
+NEG - Twos compliement
 
 The instruction set included demonstrated all the added instructions, as well as previous functions.
 
