@@ -6,7 +6,7 @@ Extended an FPGA-implemented AVR architecture with new arithmetic instructions w
 
   Key Features
 
-✅ New Instructions Added:
+ New Instructions Added:
 
     MUL : Unsigned multiplication
 
@@ -16,13 +16,13 @@ Extended an FPGA-implemented AVR architecture with new arithmetic instructions w
 
     NEG : Two’s complement negation
 
-✅ Backward-Compatible:
+ Backward-Compatible:
 
     Original instruction set unchanged (no pipeline hazards introduced).
 
     Seamless integration with existing AVR operations
 
-✅ FPGA-Tested:
+ FPGA-Tested:
 
     Verified on hardware Altera CycloneII  with custom test programs.
 
