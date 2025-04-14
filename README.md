@@ -1,15 +1,38 @@
-This project added multiple instructions to an AVR microcontroller architecture that was built using an FPGA board. The instructions needed to be implimented without altering the already available instructions.
+🖥️ AVR Custom Instruction Set on FPGA
 
-Instructions implemented:
+Extended an FPGA-implemented AVR architecture with new arithmetic instructions while preserving the existing ISA.
 
-MUL - Multiply
+📄 [Design Report](design.pdf)
 
-MULS - Multiply Signed
+  Key Features
 
-MULSU - Multiply Signed and Unsigned
+✅ New Instructions Added:
 
-NEG - Twos compliement
+    MUL : Unsigned multiplication
 
-The instruction set included demonstrated all the added instructions, as well as previous functions.
+    MULS : Signed multiplication
+
+    MULSU : Signed × Unsigned multiplication
+
+    NEG : Two’s complement negation
+
+✅ Backward-Compatible:
+
+    Original instruction set unchanged (no pipeline hazards introduced).
+
+    Seamless integration with existing AVR operations
+
+✅ FPGA-Tested:
+
+    Verified on hardware Altera CycloneII  with custom test programs.
+
+📜 Instruction Set Summary
+Instruction	Example	Operation
+MUL	MUL R1, R2	R1 × R2 (unsigned) → R0:R1
+MULS	MULS R3, R4	R3 × R4 (signed) → R0:R1
+MULSU	MULSU R5, R6	R5 (signed) × R6 (unsigned) → R0:R1
+NEG	NEG R7	R7 = -R7 (two’s complement)
+
+(Note: AVR stores 16-bit results in R0:R1 for multiplies.)
 
 ![image](https://github.com/user-attachments/assets/54aaa1cc-34b0-4a83-ade8-aa7e7c28e40f)
