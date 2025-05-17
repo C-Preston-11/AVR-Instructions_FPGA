@@ -8,13 +8,13 @@ Extended an FPGA-implemented AVR architecture with new arithmetic instructions w
 
  New Instructions Added:
 
-    MUL : Unsigned multiplication
+-  MUL : Unsigned multiplication
 
-    MULS : Signed multiplication
+-  MULS : Signed multiplication
 
-    MULSU : Signed × Unsigned multiplication
+-  MULSU : Signed × Unsigned multiplication
 
-    NEG : Two’s complement negation
+- NEG : Two’s complement negation
 
  Backward-Compatible:
 
