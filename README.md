@@ -26,7 +26,7 @@ Extended an FPGA-implemented AVR architecture with new arithmetic instructions w
 
     Verified on hardware Altera CycloneII  with custom test programs.
 
-📜 Instruction Set Summary
+:cat:Instruction Set Summary
 Instruction	Example	Operation
 MUL	MUL R1, R2	R1 × R2 (unsigned) → R0:R1
 MULS	MULS R3, R4	R3 × R4 (signed) → R0:R1
